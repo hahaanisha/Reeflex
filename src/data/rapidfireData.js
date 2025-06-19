@@ -1,0 +1,55 @@
+// rapidfireData.js
+
+export const categories = [
+  {
+    id: "waste",
+    title: "♻️ Waste Facts",
+    description: "Facts related to waste segregation, types and recycling.",
+    statements: [
+      "Plastic bottles are recyclable.",
+      "Used tissues go in wet waste.",
+      "CFL bulbs are hazardous waste.",
+      "Banana peels go in dry waste.",
+      "Glass bottles can be recycled.",
+      "E-waste includes old phones.",
+      "Vegetable peels are compostable.",
+      "Medicines are hazardous waste.",
+      "Paper is dry waste.",
+      "Wet waste includes tea leaves.",
+    ],
+  },
+  {
+    id: "beach",
+    title: "🌊 Beach Safety",
+    description: "Dos and don'ts during beach cleanups.",
+    statements: [
+      "Always wear gloves during cleanups.",
+      "Glass pieces should be picked with tools.",
+      "Sharp objects should be handled carefully.",
+      "Open shoes are best for beach cleanup.",
+      "Stay hydrated during beach cleanups.",
+      "Dispose collected waste properly.",
+      "Always work in teams.",
+      "Avoid touching medical waste.",
+      "Wear sunscreen during daytime cleanups.",
+      "Cleanups are safest in daylight.",
+    ],
+  },
+  {
+    id: "green",
+    title: "🌱 Green Living",
+    description: "Habits that promote sustainability.",
+    statements: [
+      "Using reusable bags reduces plastic waste.",
+      "Cloth napkins are more eco-friendly.",
+      "Composting reduces landfill load.",
+      "LED bulbs save energy.",
+      "Reusable bottles help reduce waste.",
+      "Bamboo toothbrushes are eco-friendly.",
+      "Buying local reduces carbon footprint.",
+      "Avoid single-use plastics.",
+      "Recycle paper and cardboard.",
+      "Turn off lights when not in use.",
+    ],
+  },
+];
